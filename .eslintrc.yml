@@ -6,4 +6,7 @@ extends:
 parserOptions:
   ecmaVersion: 12
   sourceType: module
-rules: {}
+rules: {
+  no-plusplus: ["error", { "allowForLoopAfterthoughts": true }],
+  no-use-before-define: 0
+}
